@@ -1,6 +1,8 @@
 * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
 }
+
 .container{
     margin-left: 5%;
     margin-right: 5%;
@@ -55,17 +57,28 @@ nav{
 
 .content-holder{
     margin-left: 10px;
-    background-color: grey;
+    background-color: rgb(190, 190, 184);
     text-align: center;
-    padding-top: 30px;
+
 }
 
 .img-holder{
-    background-color: khaki;
+    background-color: #ffff;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.img-holder p{
+    color: rgb(141, 141, 141);
+    font-size: 30px;
+    padding: 10px;
 }
 
 .img-holder>img{
-    width: 70%;
+    width: 100%;
     text-align: center;
 }
 
