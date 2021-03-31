@@ -144,3 +144,40 @@ nav{
 }
 
 
+/* content-two */
+
+.profile-pic{
+    margin-top: 150px;
+    
+}
+
+.profile-pic img{
+    width: 60%;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile-holder{
+    text-align: center;
+    background-color: brown;
+    margin: 15px;
+    padding-top: 30px;
+}
+
+.profile-wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    background-color: burlywood;
+}
+
+.about-me-descriptions{
+    width: 600%;
+}
+
+.content-two{
+    
+}
+
+
+
