@@ -8,6 +8,11 @@
     margin-right: 5%;
 }
 
+.title-top{
+    font-style: italic;
+    opacity: 0.3;
+}
+
 .all-content{
     display: flex;
     flex-direction: row;
@@ -107,6 +112,22 @@ nav{
 .card-container img{
     margin-top: 40px;
     width: 80%;
+    box-shadow: 0 0 15px rgb(131, 130, 130);
+}
+
+.card-holder{
+    width: 400px;
+}
+
+.card-front p{
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(141, 141, 141);
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0 0 15px rgb(131, 130, 130);
 }
 
 .page-footer{
