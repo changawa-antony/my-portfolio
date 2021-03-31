@@ -98,13 +98,13 @@ nav{
     border-radius: 10px;
 }
 
-.carousel-container{
+.card-container{
     background-color: rgb(228, 228, 228);
     text-align: center;
     margin-left: 10px;
 }
 
-.carousel-container img{
+.card-container img{
     margin-top: 40px;
     width: 80%;
 }
@@ -113,3 +113,5 @@ nav{
     text-align: center;
     margin-top: 20px;
 }
+
+
