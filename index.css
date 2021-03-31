@@ -18,7 +18,7 @@
     flex-direction: column;
 }
 
-.main-content{
+.main-content, .main-content-two{
     display: flex;
     flex-direction: row;
 }
@@ -153,8 +153,9 @@ nav{
 
 .profile-pic img{
     width: 60%;
-    height: 200px;
+    height: 260px;
     border-radius: 50%;
+    border: 4px solid rgb(168, 168, 168);
 }
 
 .profile-holder{
@@ -164,19 +165,23 @@ nav{
     padding-top: 30px;
 }
 
+.profile-details-holder{
+    display: flex;
+    flex-direction: row;
+}
+
 .profile-wrapper{
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
-    background-color: burlywood;
 }
 
 .about-me-descriptions{
-    width: 600%;
+    width: 400%;
 }
 
 .content-two{
-    
+    margin-left: 10px;
+    background-color: rgb(228, 228, 228);
 }
 
 
