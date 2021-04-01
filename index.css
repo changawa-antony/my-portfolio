@@ -1,6 +1,7 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
+    color: rgb(141, 141, 141);
 }
 
 .container, footer, .content-hr{
@@ -9,7 +10,6 @@
 }
 
 .title-top{
-    font-style: italic;
     opacity: 0.3;
 }
 
@@ -26,6 +26,8 @@
 .figma-img{
     width: 50%;
 }
+
+/* Navigation */
 
 .side-nav{
     background-color: khaki;
@@ -63,6 +65,9 @@ nav{
 .home-icon{
     width: 70%;
 }
+
+
+/* Content one */
 
 .content-wrapper{
     display: flex;
@@ -148,7 +153,7 @@ nav{
 /* content-two */
 
 .profile-pic{
-    margin-top: 150px;
+    margin-top: 120px;
     
 }
 
@@ -178,10 +183,11 @@ nav{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
+    border-radius: 5px;
 }
 
 .about-me-descriptions{
-    margin-top: 160px;
+    margin-top: 10px;
     width: 400%;
 }
 
@@ -193,7 +199,14 @@ nav{
     font-size: 30px;
     font-weight: bold;
     color: rgb(141, 141, 141);
+    margin-bottom: 0;
     
+}
+
+.fig-des{
+    font-size: 10px;
+    color: rgb(141, 141, 141);
+    margin-bottom: 10px;
 }
 
 .user-career{
@@ -220,6 +233,12 @@ nav{
 }
 
 
+.profile-holder-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .icon-links{
     padding-right: 60px;
 }
@@ -232,8 +251,8 @@ nav{
 .third{
     display: flex;
     flex-direction: row;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -247,6 +266,8 @@ nav{
         height: max-content;
         margin-right: 20px;
         margin-left: 20px;
+        box-shadow: 0 0 10px grey;
+        border-radius: 5px;
 }
 
 .projects-holder{
@@ -258,9 +279,17 @@ nav{
 }
 
 .project-pic{
-    height: 450px;
+    height: 400px;
     border-bottom: 2px solid rgb(189, 189, 189);
 }
+
+
+.project-pic-dev{
+    max-width: 10%;
+    border-bottom: 2px solid rgb(189, 189, 189);
+}
+
+
 
 .project-link img{
     width: 15%;
@@ -294,7 +323,15 @@ nav{
 .link-div>p{
     font-size: 10px;
     color: rgb(141, 141, 141);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
+
+.project-dev{
+    height: max-content;
+    border: 2px solid rgb(187, 187, 187);
+    margin: 10px;
+}
+
+
 
 
