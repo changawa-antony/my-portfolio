@@ -29,6 +29,7 @@
 
 .side-nav{
     background-color: khaki;
+    border-radius: 10px;
 }
 
 nav{
@@ -151,37 +152,84 @@ nav{
     
 }
 
+
 .profile-pic img{
     width: 60%;
     height: 260px;
     border-radius: 50%;
-    border: 4px solid rgb(168, 168, 168);
+    border: 4px solid rgb(235, 235, 235);
+}
+
+.profile-wrapper{
+    background-color: rgb(228, 228, 228);
 }
 
 .profile-holder{
     text-align: center;
-    background-color: brown;
     margin: 15px;
-    padding-top: 30px;
+    border-right: 2px solid rgb(139, 138, 138);
 }
 
 .profile-details-holder{
     display: flex;
     flex-direction: row;
-}
-
-.profile-wrapper{
-    display: flex;
-    flex-direction: row;
+    background-color: white;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 .about-me-descriptions{
+    margin-top: 160px;
     width: 400%;
 }
 
 .content-two{
     margin-left: 10px;
-    background-color: rgb(228, 228, 228);
+}
+
+.user-name{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(141, 141, 141);
+    
+}
+
+.user-career{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(141, 141, 141);
+}
+
+.about-me-descriptions{
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.about-me-descriptions p, h2{
+    color: rgb(100, 99, 99);
+    padding-bottom: 5px;
+}
+
+.about-me-descriptions p{
+    
+}
+
+.icon-contact{
+    text-align: center;
+    width: 10%;
+    padding: 10px;
+
+}
+
+.icon-links{
+    padding-right: 60px;
+}
+
+.icon-contact:hover{
+    background-color: khaki;
+    border-radius: 10px;
 }
 
 
