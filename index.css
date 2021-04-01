@@ -258,8 +258,43 @@ nav{
 }
 
 .project-pic{
-    height: 400px;
+    height: 450px;
     border-bottom: 2px solid rgb(189, 189, 189);
+}
+
+.project-link img{
+    width: 15%;
+}
+
+.project-description{
+    margin: 0;
+    padding: 20px;
+    color: rgb(141, 141, 141);
+}
+
+.project-name{
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(141, 141, 141);
+        margin-bottom: 0;
+}
+
+.project-link img:hover{
+    background-color: khaki;
+    border-radius: 10px;
+    height: 500%;
+    padding: 5px;
+}
+
+.project-language{
+    font-weight: bold;
+    color: rgb(141, 141, 141);
+}
+
+.link-div>p{
+    font-size: 10px;
+    color: rgb(141, 141, 141);
+    margin-bottom: 15px;
 }
 
 
