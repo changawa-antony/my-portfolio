@@ -232,15 +232,17 @@ nav{
 .third{
     display: flex;
     flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.side-div-two img{
-    width: 70%;
+
+.figma-project-heading{
+    text-align: center;
+    font-size: 50px;
 }
 
 .projects-card{
-        display: flex;
-        flex-direction: row;
         background-color: white;
         height: max-content;
         margin-right: 20px;
@@ -253,6 +255,11 @@ nav{
 
 .project-pic img{
     width: 100%;
+}
+
+.project-pic{
+    height: 400px;
+    border-bottom: 2px solid rgb(189, 189, 189);
 }
 
 
