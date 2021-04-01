@@ -212,16 +212,13 @@ nav{
     padding-bottom: 5px;
 }
 
-.about-me-descriptions p{
-    
-}
-
 .icon-contact{
     text-align: center;
     width: 10%;
     padding: 10px;
 
 }
+
 
 .icon-links{
     padding-right: 60px;
@@ -232,5 +229,30 @@ nav{
     border-radius: 10px;
 }
 
+.third{
+    display: flex;
+    flex-direction: row;
+}
+
+.side-div-two img{
+    width: 70%;
+}
+
+.projects-card{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        height: max-content;
+        margin-right: 20px;
+        margin-left: 20px;
+}
+
+.projects-holder{
+        text-align: center;
+}
+
+.project-pic img{
+    width: 100%;
+}
 
 
