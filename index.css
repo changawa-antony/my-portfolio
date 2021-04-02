@@ -189,11 +189,6 @@ nav{
     box-shadow: 0 0 15px rgb(131, 130, 130);
 }
 
-.page-footer{
-    text-align: center;
-    margin-top: 20px;
-}
-
 
 /* content-two */
 
@@ -269,9 +264,13 @@ nav{
 }
 
 .icon-contact{
-    width: 15%;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 10%;
+    
+}
+
+.icon-links{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .contact-icons{
@@ -288,6 +287,7 @@ nav{
 .icon-contact:hover{
     background-color: khaki;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .third{
@@ -374,6 +374,34 @@ nav{
     margin: 10px;
 }
 
+/* footer */
+
+.page-footer p{
+    float: left;
+}
+
+.footer-icons{
+    float: right;
+}
+
+.footer-contacts{
+    width: 500px;
+    list-style-type: none;
+    margin-right: -100px;
+    padding-inline-start: 0px;
+}
+
+.footer-contacts li>img{
+    width: 4%;
+    margin-right: 15px;
+}
+
+.footer-contacts li{
+    display: inline;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
 
 /* Media queries */
 
@@ -389,10 +417,36 @@ nav{
     }
 
     .nav-items{
-        list-style-type: none;
-        margin-top: 10px;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 15px;
     }
 
+    .nav-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+
+    .side-nav{
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .about-icon{
+        width: 50px;
+    }
+    
+    .home-icon{
+        width: 40px;
+    }
+
+    .figma-img{
+        width: 30px;
+    }
 
     .catch-phrase ul>li{
         display: inline;
@@ -429,31 +483,10 @@ nav{
     
     }
 
-    .nav-list{
-        display: flex;
-        flex-direction: row;
-        padding-left: 0;
-    }
-
-    .side-nav{
-        border-radius: 0;
-    }
 
     .container, footer, .content-hr{
         margin-left: 0;
         margin-right: 0;
-    }
-
-    .figma-img{
-        width: 8%;
-    }
-
-    .about-icon{
-        width: 80%;
-    }
-    
-    .home-icon{
-        width: 8%;
     }
 
     .third{
@@ -554,6 +587,20 @@ nav{
         text-align: center;
     }
 
+    .page-footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .page-footer p{
+        float: none;
+    }
+    
+    .footer-icons{
+        float: none;
+    }
+
 }
 
 
@@ -583,6 +630,20 @@ nav{
 
     .figma-img{
         width: 30px;
+    }
+
+    .page-footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .page-footer p{
+        float: none;
+    }
+    
+    .footer-icons{
+        float: none;
     }
 
 }
@@ -634,6 +695,20 @@ nav{
     .contact-icons{
         text-align: center;
     }
+
+    .page-footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .page-footer p{
+        float: none;
+    }
+    
+    .footer-icons{
+        float: none;
+    }
     
 }
 
@@ -682,6 +757,20 @@ nav{
 
     .contact-icons{
         text-align: center;
+    }
+
+    .page-footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .page-footer p{
+        float: none;
+    }
+    
+    .footer-icons{
+        float: none;
     }
     
 }
