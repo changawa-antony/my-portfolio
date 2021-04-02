@@ -379,7 +379,7 @@ nav{
 
 /* for min width= 480 */
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1024px){
     nav{
         position: sticky;
         width: 100%;
@@ -555,6 +555,38 @@ nav{
     }
 
 }
+
+
+
+@media screen and (max-width:900px){
+
+    .nav-list{
+        text-align: center;
+    }
+
+    .nav-items{
+        text-align: center;
+        padding-left: 0;
+        padding-top: 20px;
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-top: 0px;
+    }
+
+    .about-icon{
+        width: 50px;
+    }
+    
+    .home-icon{
+        width: 40px;
+    }
+
+    .figma-img{
+        width: 30px;
+    }
+
+}
+
 
 /* screens from 1200px */
 
