@@ -66,6 +66,42 @@ nav{
     width: 70%;
 }
 
+/* Dropdown menu */
+
+.dropdown-menu{
+    display: none;
+    position: sticky;
+    background-color: khaki;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.dropdown-items a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.dropdown-items a:hover{
+    background-color: ivory;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.bottom-line{
+    border-bottom: 2px solid rgb(197, 197, 197);
+}
+
 
 /* Content one */
 
@@ -367,6 +403,10 @@ nav{
         font-weight: bold;
     }
 
+    .dropdown-menu{
+        display: sticky;
+    }
+
     .content-holder{
         margin-left: 0px;
     }
@@ -519,6 +559,10 @@ nav{
 /* screens from 1200px */
 
 @media screen and (max-width:800px){
+
+    nav{
+        display: none;
+    }
     .card-container{
         display: none;
         background-color: rgb(228, 228, 228);
@@ -529,6 +573,11 @@ nav{
     .content-holder{
         margin-left: 0px;
     
+    }
+
+    .dropdown-menu{
+        display: block;
+        position: fixed;
     }
 
     .icon-links{
@@ -559,9 +608,18 @@ nav{
 /* max width 500px */
 
 @media screen and (max-width:600px){
+
+    nav{
+        display: none;
+    }
     .card-container{
         display: none;
         
+    }
+
+    .dropdown-menu{
+        display: block;
+        position: fixed;
     }
 
     .catch-phrase ul>li{
