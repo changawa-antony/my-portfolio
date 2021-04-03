@@ -405,7 +405,7 @@ nav{
 
 /* Media queries */
 
-/* for min width= 480 */
+/* for max width 1200px */
 
 @media screen and (max-width:1024px){
     nav{
@@ -603,7 +603,7 @@ nav{
 
 }
 
-
+/* for max width 900px */
 
 @media screen and (max-width:900px){
 
@@ -649,7 +649,7 @@ nav{
 }
 
 
-/* screens from 1200px */
+/* screens from 800px */
 
 @media screen and (max-width:800px){
 
@@ -712,7 +712,7 @@ nav{
     
 }
 
-/* max width 500px */
+/* max width 600px */
 
 @media screen and (max-width:600px){
 
