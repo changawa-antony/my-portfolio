@@ -26,7 +26,7 @@ $ git clone https://github.com/changawa-antony/my-portfolio
 2. CSS
 3. Git
 ### View live Site
-View [live]()
+View [live](https://changawa-antony.github.io/my-portfolio/)
 ## Author
 Antony Kazungu
 ### Licence
