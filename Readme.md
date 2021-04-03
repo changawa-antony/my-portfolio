@@ -20,7 +20,7 @@ $ git clone https://github.com/changawa-antony/my-portfolio
 * Figma designs
 * Live projects
 
-*Get to explore* :metal:
+*Get to explore* :rocket:
 ### Technologies Used
 1. HTML
 2. CSS
